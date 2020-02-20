@@ -34,6 +34,11 @@
                 @include('flash::message')
                 @include('layouts.errors')
             </h3>
+
+            <div class="row center">
+                <p><?php var_dump($cliente);?></p>
+            </div>
+
             <div class="row center">
                 <a href="{{url("/")}}" id="download-button" class="btn-large waves-effect waves-light orange">Reintentar</a>
             </div>

@@ -37,17 +37,24 @@ class ApiController extends Controller
         $statusCode = $response->getStatusCode();
         $body = $response->getBody()->getContents();
         //
-        //dd($body, $statusCode);
+        //var_dump($body);
+        //dd($body[200], $statusCode);
+
+        $archivo = $body;
+        $uuid = $vin;
+        $path = "xml_down/" . $uuid . ".xml";
+        file_put_contents($path, $archivo);
+        header("Content-disposition: attachment; filename=$uuid.xml");
+        header("Content-type: application/xml");
 
         if ($statusCode == '200'){
             $bool = TRUE;
             Flash::success('<p class="green-text">Api consumida con éxito</p>');
         }else{
-            $bool = FALSE;
+            Flash::success('<p class="red-text">Intente de nuevo</p>');
         }
 
         return view('consumo')
-            ->with('cliente', $client)
-            ->with('bool', $bool);
+            ->with('cliente', $body);
     }
 }
