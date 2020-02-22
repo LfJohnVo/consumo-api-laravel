@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="669ba38e-7a97-46d7-8ed5-7c27b704b5a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pruebat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pruebat.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/xml_down/1ZVBP8EM7D5276339.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/consumo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/consumo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +126,7 @@
       <path value="$PROJECT_DIR$/vendor/laracasts/flash" />
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
       <path value="$PROJECT_DIR$/vendor/laraveles/spanish" />
+      <path value="$PROJECT_DIR$/vendor/bmatovu/laravel-xml" />
     </include_path>
   </component>
   <component name="ProjectId" id="1Y57NX1dcieuTXSfScOhAOeto3h" />
@@ -170,6 +180,8 @@
       <updated>1582220561979</updated>
       <workItem from="1582220566092" duration="11289000" />
       <workItem from="1582237302187" duration="1999000" />
+      <workItem from="1582255229508" duration="873000" />
+      <workItem from="1582324672816" duration="13409000" />
     </task>
     <servers />
   </component>
@@ -185,14 +197,23 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582239447643" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1582238620127">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="460" y="247" width="446" height="265" key="ComposerInitDialogKey" timestamp="1582332182466">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="460" y="247" width="446" height="265" key="ComposerInitDialogKey/0.0.1366.728@0.0.1366.728" timestamp="1582332182466" />
+    <state x="488" y="148" key="FileChooserDialogImpl" timestamp="1582337640527">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="148" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582337640527" />
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582238620127" />
     <state x="604" y="333" key="NewPhpFileDialog" timestamp="1582227302033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="333" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1582227302033" />
+    <state x="384" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1582255232823">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582255232823" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1582239004988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

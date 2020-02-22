@@ -36,11 +36,52 @@
             </h3>
 
             <div class="row center">
-                <p><?php var_dump($cliente);?></p>
+                <table class="centered responsive-table">
+                    <thead>
+                    <tr>
+                        @if($count == 8)
+                            <th>VIN</th>
+                            <th>Marca Fabricante</th>
+                            <th>Modelo Vehiculo</th>
+                            <th>Año modelo</th>
+                            <th>Perdida Total</th>
+                            <th>Fecha perdida total</th>
+                            <th>Ultimo titulo</th>
+                            <th>Fecha Titulo</th>
+                        @elseif ($count == 9)
+                            <th>VIN</th>
+                            <th>Marca Fabricante</th>
+                            <th>Modelo Vehiculo</th>
+                            <th>Año modelo</th>
+                            <th>Salvage</th>
+                            <th>Fecha salvage</th>
+                            <th>Ultimo titulo</th>
+                            <th>Titulo del estado</th>
+                            <th>Fecha Titulo</th>
+                        @else
+                            <h5 class="yellow-text">Sin resultados</h5>
+                        @endif
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        @foreach($nodos as $value)
+                            <div>
+                                <td>{{ $value[0] }}</td>
+                            </div>
+                        @endforeach
+                    </tr>
+                    </tbody>
+                </table>
+
             </div>
 
             <div class="row center">
-                <a href="{{url("/")}}" id="download-button" class="btn-large waves-effect waves-light orange">Reintentar</a>
+                <a href="{{url("/")}}" id="download-button"
+                   class="btn-large waves-effect waves-light orange">Reintentar</a>
+                <a class="btn-large waves-effect waves-light btn" href="{{$path}}" target="_blank">Visualizar XML</a>
+                <a class="btn-large waves-effect waves-light blue" href="{!! route('xml', [$ruta]) !!}">Descargar
+                    XML</a>
             </div>
             <br><br>
 

@@ -13,6 +13,7 @@
 
 Route::get('/', 'ApiController@index');
 Route::post('/consumo', 'ApiController@consumo')->name('consumo');
+Route::get('/xml/{path}', 'ApiController@Descargar')->name('xml');
 
 
 
