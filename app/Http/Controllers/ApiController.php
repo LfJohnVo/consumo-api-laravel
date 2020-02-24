@@ -47,8 +47,6 @@ class ApiController extends Controller
 
             //Pasar String a array
             $decode = xml_decode($body);
-            $item = (sizeof($decode));
-            //dd($decode);
 
             foreach ($decode as $item) {
                 if ($item != NULL) {
